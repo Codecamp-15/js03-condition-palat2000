@@ -1,3 +1,3 @@
-let num1 = +prompt("Enter first number");
-let num2 = +prompt("Enter second number");
-let num3 = +prompt("Enter third number");
+let number = prompt("Enter 3 number");
+let sortNumber = number.split(" ").sort((a,b) => b-a );
+alert(sortNumber);
